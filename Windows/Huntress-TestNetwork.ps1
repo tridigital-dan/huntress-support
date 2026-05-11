@@ -32,7 +32,7 @@ catch {
 }
 
 # retrieve a list of URLs to test from Huntress github
-$URL = 'https://raw.githubusercontent.com/huntresslabs/support/refs/heads/main/URLdata.json'
+$URL = 'https://raw.githubusercontent.com/tridigital-dan/huntress-support/refs/heads/main/URLdata.json'
 try {
     $data = Invoke-RestMethod -Uri $URL -UseBasicParsing -ErrorAction Stop
 } catch {
